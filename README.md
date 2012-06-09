@@ -1,0 +1,1 @@
+This is a website for sharing homebrewed beer with other homebrewers in your area. If you have any questions or feedback, please contact [me](mailto: matthew.barackman@gmail.com). Made by [Matt Barackman](www.mattbarackman.com)
