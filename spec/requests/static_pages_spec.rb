@@ -2,6 +2,8 @@ require 'spec_helper'
 
 describe "Static pages" do
 
+ let(:base_title) { "Beer Swap" }
+
   describe "Home page" do
 
     it "should have the content 'Beer Swap'" do
@@ -11,7 +13,7 @@ describe "Static pages" do
 	it "should have the right title" do
 	  visit '/static_pages/home'
 	  page.should have_selector('title',
-	          :text => "| Home")
+	          :text => "#{base_title} | Home")
 	end
   end
 
@@ -24,7 +26,7 @@ describe "Static pages" do
 	it "should have the right title" do
 	  visit '/static_pages/help'
 	  page.should have_selector('title',
-	          :text => "| Help")
+	          :text => "#{base_title} | Help")
 	end
   end
 
@@ -38,7 +40,7 @@ describe "Static pages" do
 	it "should have the right title" do
 	  visit '/static_pages/about'
 	  page.should have_selector('title',
-	          :text => "| About")
+	          :text => "#{base_title} | About")
 	end
   end 
 
