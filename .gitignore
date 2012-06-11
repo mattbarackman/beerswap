@@ -15,3 +15,7 @@
 /tmp
 
 .DS_Store
+
+.bundle
+
+bundler_stubs/
