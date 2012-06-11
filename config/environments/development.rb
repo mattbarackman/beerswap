@@ -34,4 +34,7 @@ Beerswap::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # configures mongomapper
+  config.gem "mongo_mapper"
 end

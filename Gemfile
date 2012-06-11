@@ -11,7 +11,7 @@ gem "bootstrap-will_paginate", "0.0.6"
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem "sqlite3", "1.3.5"
+  gem "mongo_mapper"
   gem "annotate", "~> 2.4.1.beta"	
 end
 
@@ -42,5 +42,5 @@ end
 gem 'jquery-rails', '2.0.0'
 
 group :production do
-  gem "pg", "0.12.2"
+  gem "mongo_mapper"
 end
